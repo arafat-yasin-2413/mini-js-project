@@ -22,5 +22,6 @@ function addStudent(name, age, department) {
 
 addStudent("Fahim",24,"EEE");
 // another variable
+// second variable
 
 console.log(students);
