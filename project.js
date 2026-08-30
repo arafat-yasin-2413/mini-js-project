@@ -4,5 +4,22 @@ let students = [
 
 ]
 
+// console.log(students);
+
+function addStudent(name, age, department) {
+    let newId = students.length > 0 ? students[students.length - 1].id + 1 : 101;
+
+    let newStudent = {
+        id: newId,
+        name: name,
+        age: age,
+        department: department,
+    };
+
+    students.push(newStudent);
+    
+}
+
+addStudent("Fahim",24,"EEE");
+
 console.log(students);
-// new line added
